@@ -2,6 +2,11 @@
 {{count}}
 </template>
 
+<script lang="ts">
+export default {
+
+}
+</script>
 <script lang="ts" setup>
 import {ref} from 'vue'
 
@@ -11,9 +16,9 @@ const handle = () =>{
   console.log('这是子组件的方法')
 }
 
-defineExpose({
-  count,handle
-})
+// defineExpose({
+//   count,handle
+// })
 
 </script>
 
